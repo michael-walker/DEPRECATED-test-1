@@ -1,5 +1,5 @@
 
-CREATE TABLE PURCHASES AS
+CREATE TABLE PURCHASES AS jkljklj
 select
 	count(case when customer_name = 'John Smith' then 1 end) johns_purchases,
 	count(case when customer_name = 'David Kim' then 1 end) davids_purchases,
